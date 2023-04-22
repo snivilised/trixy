@@ -11,8 +11,8 @@ import (
 
 	xi18n "github.com/snivilised/extendio/i18n"
 
-	"github.com/snivilised/arcadia/src/app/domain"
-	"github.com/snivilised/arcadia/src/i18n"
+	"github.com/snivilised/trixy/src/app/domain"
+	"github.com/snivilised/trixy/src/i18n"
 )
 
 // CLIENT-TODO: rename this widget command to something required

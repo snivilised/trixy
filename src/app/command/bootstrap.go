@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/text/language"
 
-	"github.com/snivilised/arcadia/src/i18n"
 	xi18n "github.com/snivilised/extendio/i18n"
+	"github.com/snivilised/trixy/src/i18n"
 )
 
 type LocaleDetector interface {

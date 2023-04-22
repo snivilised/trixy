@@ -1,4 +1,4 @@
-module github.com/snivilised/arcadia
+module github.com/snivilised/trixy
 
 go 1.19
 

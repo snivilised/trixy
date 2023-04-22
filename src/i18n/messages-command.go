@@ -6,7 +6,7 @@ import (
 
 // 🧊 RootCmdShortDesc
 type RootCmdShortDescTemplData struct {
-	arcadiaTemplData
+	trixyTemplData
 }
 
 func (td RootCmdShortDescTemplData) Message() *i18n.Message {
@@ -19,7 +19,7 @@ func (td RootCmdShortDescTemplData) Message() *i18n.Message {
 
 // 🧊 RootCmdLongDesc
 type RootCmdLongDescTemplData struct {
-	arcadiaTemplData
+	trixyTemplData
 }
 
 func (td RootCmdLongDescTemplData) Message() *i18n.Message {
@@ -37,7 +37,7 @@ func (td RootCmdLongDescTemplData) Message() *i18n.Message {
 
 // 🧊 RootCmdConfigFileUsage
 type RootCmdConfigFileUsageTemplData struct {
-	arcadiaTemplData
+	trixyTemplData
 	ConfigFileName string
 }
 
@@ -50,7 +50,7 @@ func (td RootCmdConfigFileUsageTemplData) Message() *i18n.Message {
 }
 
 type RootCmdLangUsageTemplData struct {
-	arcadiaTemplData
+	trixyTemplData
 }
 
 func (td RootCmdLangUsageTemplData) Message() *i18n.Message {
@@ -63,7 +63,7 @@ func (td RootCmdLangUsageTemplData) Message() *i18n.Message {
 
 // 🧊 WidgetCmdShortDesc
 type WidgetCmdShortDescTemplData struct {
-	arcadiaTemplData
+	trixyTemplData
 }
 
 func (td WidgetCmdShortDescTemplData) Message() *i18n.Message {
@@ -76,7 +76,7 @@ func (td WidgetCmdShortDescTemplData) Message() *i18n.Message {
 
 // 🧊 WidgetCmdLongDesc
 type WidgetCmdLongDescTemplData struct {
-	arcadiaTemplData
+	trixyTemplData
 }
 
 func (td WidgetCmdLongDescTemplData) Message() *i18n.Message {
